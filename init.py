@@ -22,8 +22,8 @@ def webshrinker_categories_v3(access_key, secret_key, url=b"", params={}):
 
     return "https://api.webshrinker.com/{}&hash={}".format(request, signed_request)
 
-access_key = "MsRTvjYiEnCw8rflkztZ"
-secret_key = "JpLU3mxwluZClWkYqv8g"
+access_key = "ENTER ACCESS KEY"
+secret_key = "ENTER SECRET KEY"
 
 with open('url_list.txt', 'rb') as url_file:
     for line in url_file:
